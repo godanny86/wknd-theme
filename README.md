@@ -1,4 +1,4 @@
-# Site Theme
+# WKND Site Theme
 
 This is the theme of the basic site template for Adobe Experience Manager (AEM).
 
