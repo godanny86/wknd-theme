@@ -7,25 +7,10 @@
     font-weight: bold;
   }
   & p a {
-    color: $accent;
+    color: $color-link;
     text-decoration: none;
     border: 0.125em solid $transparent;
     border-radius: 0.25em;
-    &:hover {
-      color: $accent-hover;
-      text-decoration: underline;
-      text-decoration-thickness: 0.125em;
-      text-decoration-color: $accent-hover;
-      text-decoration-style: solid;
-    }
-    &:focus {
-      text-decoration: underline;
-      border-color: $accent;
-      outline: none;
-      text-decoration-thickness: 0.125em;
-      text-decoration-color: $accent;
-      text-decoration-style: solid;
-    }
   }
   & blockquote {
     margin: 0.75rem 0;

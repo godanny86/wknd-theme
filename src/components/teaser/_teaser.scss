@@ -55,16 +55,16 @@
 }
 .cmp-teaser__action-link {
   margin-right: 0.8em;
-  padding: 0.5625em 1em 0.6875em 1em;
+  padding: 0.6875em 1em 0.6875em 1em;
   color: $text-on-background;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 1.56em;
 }
 
 .cmp-teaser__action-link:first-child {
   background-color: $accent;
   border: 0.125em solid $accent;
+  color: $text-color;
 
   &:hover {
     background-color: $accent-hover;
