@@ -7,15 +7,15 @@
     font-weight: bold;
   }
   & p a {
-    color: $color-link;
+    color: $accent;
     text-decoration: none;
     border: 0.125em solid $transparent;
     border-radius: 0.25em;
     &:hover {
-      color: darken($color-link, 20%);
+      color: $accent-hover;
       text-decoration: underline;
       text-decoration-thickness: 0.125em;
-      text-decoration-color: darken($color-link, 20%);
+      text-decoration-color: $accent-hover;
       text-decoration-style: solid;
     }
     &:focus {
@@ -23,7 +23,7 @@
       border-color: $accent;
       outline: none;
       text-decoration-thickness: 0.125em;
-      text-decoration-color: $color-link;
+      text-decoration-color: $accent;
       text-decoration-style: solid;
     }
   }

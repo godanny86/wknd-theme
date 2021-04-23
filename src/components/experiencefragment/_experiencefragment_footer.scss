@@ -1,6 +1,8 @@
 //== XF Footer style, used on page template
 
 .experiencefragment.footer {
+  background: $color-foreground;
+  color: $color-background;
   margin-top: 5em;
   padding: 1.625em 0 1.5625em 0;
   border-top: 0.125em solid $grey1;
@@ -46,9 +48,11 @@
     & p {
       margin-block: 0;
       & a {
+        color: $accent;
         text-decoration: none;
         &:focus {
-          border: 0.125em solid;
+          color: $accent-focus;
+          border: 0.125em solid $accent-focus;
           border-radius: 0.25em;
         }
         &:hover {

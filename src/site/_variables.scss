@@ -11,9 +11,9 @@ $font-height: 20px;
 $color-foreground: #202020;
 $color-background: #ffffff;
 $color-link: #2020e0;
-$accent: #0ba94a;
-$accent-focus: lighten($accent, 10%);
-$accent-hover: darken($accent, 10%);
+$accent: #2954ff;
+$accent-focus: #436eff;
+$accent-hover: #103be6;
 $text: #000000;
 $text-on-background: #ffffff;
 $grey-bar: #eaebeb;
@@ -23,10 +23,14 @@ $grey3: #607d8b;
 $grey4: #455a65;
 $color-shadow: #00000029;
 $error: #d7373f;
-$error-hover: darken($error, 10%);
+$error-hover: #be1e26;
 $success: #268e6c;
-$success-hover: darken($success, 10%);
+$success-hover: #0d7553;
 $transparent: rgba(0, 0, 0, 0);
+
+//== Layout
+$max-content-width: 1084px;
+$max-page-width: 1680px;
 
 //== Grid
 
