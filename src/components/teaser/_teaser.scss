@@ -64,7 +64,7 @@
 .cmp-teaser__action-link:first-child {
   background-color: $accent;
   border: 0.125em solid $accent;
-  color: $text-color;
+  color: $text-on-background;
 
   &:hover {
     background-color: $accent-hover;
@@ -83,7 +83,7 @@
 }
 
 .cmp-teaser__action-link:not(:first-child) {
-  color: $text-on-background;
+  color: $text-color-inverse;
   background-color: rgba(0, 0, 0, 0);
   border: 0.125em solid $color-background;
 
